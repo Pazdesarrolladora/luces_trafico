@@ -1,0 +1,39 @@
+body{
+  background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/1400/ebf965165602485.640a12380f762.png");
+}
+.light {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  margin-bottom: 2px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.lights-container{
+  margin-top: 60px;
+}
+.container {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 15px;
+  width: 115px;
+  height: 450px;  
+ }
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color:green;
+}
+.purple{
+  background-color: purple;
+}
+
+.light.active {
+  box-shadow: 0 0 10px rgba(240, 240, 177, 0.5);
+}
